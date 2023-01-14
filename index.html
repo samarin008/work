@@ -11,45 +11,29 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap" rel="stylesheet"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js"></script>
 </head>
 <body>
-    <img src="dark-mode-icon.svg" style="width:200px;" onclick="switchtheme()">
-        <div class="dotted-list">
-            <ul>
-                <li><a href="#start-card">○ start</a></li>
-                <li><a href="#work-card">○ work</a></li>
-                <li><a href="#about-card">○ about</a></li>
-            </ul>
-        </div>
-        <div id="start-card">
-        <div class="main-central">
-            <h1>hey, my name is Smaran. I'm a web developer, entreprenuer, and a photographer.</h1>
-            <a href="#about-card" class="btn-learn">Learn More</a>
-        </div>
-        <div id="work-card">
-            <p>Image Model: <a class="credit-link" href="https://www.instagram.com/k.kannxii/" alt="model">k.kannxii</a></p>
-            <img src="1.jpg" id="firstimg" alt="1" class="image-card" style="width:500px; float:left; position:relative; bottom:50px;">
-            <img src="2.jpg" id="secondimg" alt="2" class="image-card" style="width:400px; position:relative; bottom:50px; display:block; left:60px;">
-            <img src="3.jpg" id="thirdimg" alt="3" class="image-card" style="width:400px; position:relative; bottom:30px; left:100px;">
-            <img src="4.jpg" id="fourthimg" alt="4" class="image-card" style="width:500px; position:relative; bottom:480px; left:50px;">
-            <img src="5.jpg" id="fifthimg" alt="5" class="image-card" style="width:400px; position: relative; bottom:130px; right:30px;">
-            <img src="6.jpg" id="sixthimg" alt="6" class="image-card" style="width:200px; position: relative; bottom:1200px; left:800px;">
-            <div class="shrek-link-card">
-                <a href="https://smarantimsina.github.io/shrekmaker/" target="_blank"><img id="shrekimg" src="shrekbanner.jpg" alt="shrek" class="image-card" style="width:500px; height:250px; position:relative; bottom:410px; right:748px;"></a>
+    <img id="themeimg" src="dmi.svg" style="width:100px;" onclick="switchtheme()">
+        <ul class="toplinks-card">
+            <li>
+                <a href="#start">start</a>
+            </li>
+            <li>
+                <a href="#apparel">apparel</a>
+            </li>
+            <li>
+                <a href="#aboutme">about me</a>
+            </li>
+        </ul>
+        <div id="start">
+            <div class="start-card">
+                <h1>im hans and i make apparel :)</h1>
+                <a href="#aboutme">Learn More</a>
             </div>
         </div>
-        <div id="about-card">
-            <br>
-            <img src="me.png" alt="me" class="my-image" style="display:block; border-radius:1000px; width:70px; position:relative;">
-            <h2 style="display:block; position:relative; left:20px;">Contact</h2>
-            <div class="contact-links-card">
-                <a href="https://www.pinterest.com/timsmaran20/" target="_blank"><img src="pin.png" alt="pinterest" style="width:60px; position:relative; bottom:30px;"></a><span><a href="https://github.com/samarin008" target="_blank"><img src="git.png" alt="github" style="width:120px;"></a></span>
-            </div>
-            <h4 style="display:block;">email: <a class="email-card" href="mailto:samarinthesamurai@gmail.com">samarinthesamurai@gmail.com</a></h4>
-
-            <p style="display:block;">Hello, I am a <span class="important-info">web developer</span>, an <span class="important-info">entreprenuer</span> and a <span class="important-info">photographer.</span> My services are <span class="important-info">remote</span>, primarily based in the US. I can do a variety of services with my development skills, however I am saving for a better camera right now so photography services <span class="important-info">aren't available</span>. I can do your homework if it's K-8 Math, Science and History. And I will also write you <span class="important-info">an essay</span> that is <span class="important-info">grammatically</span> and <span class="important-info">strategically</span> appealing.</p>
-
-
+        <div id="apparel">
+            <img id="jacketimg" src="jacket.jpg">
         </div>
 </body>
 </html>

@@ -95,3 +95,42 @@ ul.toplinks-card {
 .dark-mode .start-card a:hover {
     border-color:white;
 }
+hr {
+    background-color: black;
+    position:relative;
+    top:50px;
+    width:100%;
+}
+#apparel {
+    margin-top:100px;
+}
+#apparel img {
+    border-radius: 20px;
+    width:300px;
+    margin-left:20px;
+}
+#hoodieimg {
+    height:280px;
+}
+#apparel img:hover {
+    opacity: 0.8;
+}
+.view-more {    
+    text-decoration: none;
+    color:black;
+    position:relative;
+    top:60px;
+}
+.view-more:hover {
+    color:white;
+    background-color:black;
+    padding: 6px 6px 6px 6px;
+    border-radius:20px;
+}
+.dark-mode .view-more {
+    color:white;
+}
+.dark-mode .view-more:hover {
+    color:black;
+    background-color:white;
+}
